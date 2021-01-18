@@ -77,15 +77,6 @@ print("")
 print(Fore.LIGHTMAGENTA_EX+" [" + Fore.WHITE+"+" + Fore.LIGHTMAGENTA_EX+"]" + Fore.WHITE+" Menu" + Fore.LIGHTMAGENTA_EX+" |" + Fore.WHITE+" To go to the Main Menu")
 print("")
 help = input(Fore.LIGHTMAGENTA_EX+" nemesis" + Fore.WHITE+"@" + Fore.LIGHTMAGENTA_EX+"selfbot" + Fore.WHITE+":"+ Fore.CYAN+"~" + Fore.LIGHTMAGENTA_EX+"<3 " + Fore.WHITE+"")
-if help == "Menu":
-    os.system("cls")
-    os.system("main.py")
-if help == "menu":
-    os.system("cls")
-    os.system("main.py")
-if help == "MENU":
-    os.system("cls")
-    os.system("main.py")
-if help == "mENU":
+if help.lower() == "menu":
     os.system("cls")
     os.system("main.py")
