@@ -1,0 +1,10 @@
+colorama
+tqdm
+discord
+pyfiglet
+requests
+asyncio
+praw
+aiohttp
+datetime
+pillow
